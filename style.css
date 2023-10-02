@@ -1,0 +1,43 @@
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu5eoKjOkwVddeU7uEuc6ViA0SvlvAwdackOJ8XELV&s');
+    background-size: 1000px;
+}
+input{
+    width: 60px;
+    text-align: center;
+    color: rgb(4, 4, 5);
+    font-size: 25px;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-block: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: sans-serif;
+    overflow: hidden;
+    letter-spacing: 8px;
+    position: relative;    
+    animation: text 3s 1;
+}
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -500px;
+    }
+
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -500px;
+    }
+
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -500px;
+    }
+}
